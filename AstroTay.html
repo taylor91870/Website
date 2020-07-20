@@ -1,7 +1,21 @@
 <!DOCTYPE html> 
 <html lang="en">
-
-  <title>TaylorS Photos</title>
+<style>
+  ol{
+        display:inline-block;
+        border:1px solid #000;
+        padding-left: 20px;
+        padding-right: 10px;
+        
+}
+  table, th, td {
+    border: 1px solid black;
+  }
+  table {
+  width: 700px;
+}
+  </style>
+  <title>TaylorS. HW1 </title>
     <meta charset="UTF-8">
     <meta name="description" content="Assignment #1">
     <meta name="keywords" content="HTML,CSS">
@@ -9,16 +23,20 @@
 </head>
 
 <body>
-<h2 title="All of these are my photo's, I never plagiarize">Taylor Stanislawski's Photography page</h2>
+<h2 title="I'm a header">Taylor Stanislawski's first HTML page</h2>
 
-<h1>Photo's mainly reguarding space, but of anything I find worth sharing</h1>
-<h2>All photo's are mine. If you would like full resolution versions, contact me @ Taylor.Stanislawski@go.winona.edu</h2>
-<h3>I also talk about rockets(to showcase my HTML ability)</h3>
+<h1>This is an assignment displaying my knowledge of HTML and CSS</h1>
+<h2>I decided to share a few images I have taken myself</h2>
+<h3>I also talk about rockets</h3>
+
+<div class="myDiv">
+  <p><i class="term">This</i> is some <u class="term">text</u> in a <b class="term">div</b> element.</p>
+</div>
 
 <hr>
 
 <h2>My Photos</h2>
-<h3>(All located on Imgur, hover to view details)</h3>
+<h3>(All located on Imgur)</h3>
 
 <img src="https://i.imgur.com/HUAQSTC.jpg" alt="Ragrain on Imgur" width="320" height="180" class="rotateimg190" title="Taken April 2020 with Orion XT6 Telescope"/>
 <img src="https://i.imgur.com/TYX3tcZ.jpg" alt="Ragrain on Imgur" width="320" height="180" class="rotateimg190" title="Taken April 2020 with Orion XT6 Telescope"/>
@@ -27,8 +45,45 @@
 <h2>Imgur link: <a target="blank" href="https://imgur.com/user/Ragrain">Ragrain</a></h2>
 
   <hr>
-  <h2><a target="blank" href="SaturnV.html">Putting a man on the Moon</a> </target></h2>
-  
+  <h2 title="Or a Space Station into orbit in one launch">Putting a man on the Moon</h2>
+  <ol style="line-height:170%"> 
+    <li>Systems go-for-launch </li>
+    <li>Vehicle on internal power </li>
+    <li>Turbo-pump start </li>
+    <li>F-1 ignition </li>
+    <li>Thrust reaches 100% </li>
+    <li>Hold-down arms release </li>
+    <li>Lift-off of the 6,200,000 Lbs, 363 foot tall Saturn V </li>
+  </ol>
+<img src="https://lightsinthedark.files.wordpress.com/2015/09/gif-33.gif?w=1000" alt="I did NOT take this video(duh), Saturn V launch" width="320" height="180" class="rotateimg190">
+
+<table title="Specifications from my friend Everyday Astronaut on YouTube">
+  <tr>
+    <th>Engine</th>
+    <th>ISP</th> 
+    <th>Thrust to weight ratio</th>
+  </tr>
+  <tr>
+    <td>SpaceX Merlin 1D</td>
+    <td>282 asl</td>
+    <td>198:1</td>
+  </tr>
+  <tr>
+    <td>SpaceX Merlin 1D Vacuum</td>
+    <td>311 vac</td>
+    <td>198:1</td>
+  </tr>
+  <tr>
+    <td>Rocketdyne F-1</td>
+    <td>263 asl</td>
+    <td>94:1</td>
+  </tr>
+  <tr>
+    <td>RS-25</td>
+    <td>366 asl (452 vac)</td>
+    <td>73:1</td>
+  </tr>
+</table>
 
 </body>
 </html>
